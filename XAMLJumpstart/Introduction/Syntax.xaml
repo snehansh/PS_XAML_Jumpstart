@@ -1,0 +1,30 @@
+﻿<Page x:Class="XAMLJumpstart.Introduction.Syntax"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+	  xmlns:othernamespace="clr-namespace:XAMLJumpstart.Introduction.OtherNamespace"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:XAMLJumpstart.Introduction"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Syntax">
+
+	<Grid>
+		<othernamespace:DummyUserControl HorizontalAlignment="Right" Height="33"/>
+		<Button Width="100" Height="80">
+			<StackPanel>
+				<Image Source="../Assets/pluralsightlogo.png"/>
+				<TextBlock Text="Hi there!"/>
+			</StackPanel>
+		</Button>
+
+		<StackPanel Orientation="Horizontal">
+			<Button Content="1" Width="30" Height="30"/>
+			<Button Content="2" Width="30" Height="30"/>
+			<Button Content="3" Width="30" Height="30"/>
+		</StackPanel>
+
+		<Button Width="100" Height="30" x:Name="btnTest" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+	</Grid>
+</Page>

@@ -1,0 +1,13 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:XAMLJumpstart.ResourcesAndStyling">
+	
+	<DataTemplate x:Key="dtPerson">
+		<StackPanel Orientation="Vertical">
+			<TextBlock Text="{Binding Name}" />
+			<TextBlock Foreground="{StaticResource myBrush}"
+						   Text="{Binding Age}" />
+		</StackPanel>
+	</DataTemplate>
+	
+</ResourceDictionary>

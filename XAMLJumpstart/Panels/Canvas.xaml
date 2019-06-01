@@ -1,0 +1,17 @@
+﻿<Page x:Class="XAMLJumpstart.Panels.Canvas"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:XAMLJumpstart.Panels"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Canvas">
+
+	<Grid>
+		<Canvas>
+			<Rectangle Fill="Blue" Width="200" Height="100" Canvas.Left="50" Canvas.Top="50" Panel.ZIndex="1" />
+			<Rectangle Fill="Yellow" Width="100" Height="200"/>
+		</Canvas>
+	</Grid>
+</Page>

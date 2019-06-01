@@ -1,0 +1,21 @@
+﻿<Application x:Class="XAMLJumpstart.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:XAMLJumpstart"
+             StartupUri="ItemsControl/ItemsControls.xaml">
+	<Application.Resources>
+		<ResourceDictionary>
+			<ResourceDictionary.MergedDictionaries>
+				<ResourceDictionary
+					Source="ResourcesAndStyling/DictionaryWithBrush.xaml" />
+				<ResourceDictionary
+					Source="ResourcesAndStyling/DictionaryWithDataTemplate.xaml" />
+			</ResourceDictionary.MergedDictionaries>
+		</ResourceDictionary>
+	</Application.Resources>
+</Application>
+
+
+
+<!--<ResourceDictionary
+			Source="ResourcesAndStyling/DictionaryWithBrush.xaml"/>-->

@@ -1,0 +1,15 @@
+﻿<Page x:Class="XAMLJumpstart.BasicElements.Shapes"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:XAMLJumpstart.BasicElements"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Shapes">
+
+	<Grid Background="White">
+		<Path Data="M5.5,5.5 L94.5,5.5 94.5,71.631561 95.133583,71.288574 C105.91154,65.736129 119.29059,62.448001 133.7845,62.448001 169.46182,62.448001 198.384,82.37133 198.384,106.948 198.384,131.52467 169.46182,151.448 133.7845,151.448 98.107178,151.448 69.184998,131.52467 69.184998,106.948 69.184998,102.72388 70.039391,98.637229 71.63562,94.765579 L71.750305,94.5 5.5,94.5 z" Fill="#FF1818C5" HorizontalAlignment="Left" Margin="157.444,82.63,0,210.422" Stretch="Fill" Stroke="#FFD32020" StrokeThickness="11" Width="203.884"/>
+
+	</Grid>
+</Page>
